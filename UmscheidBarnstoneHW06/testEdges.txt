@@ -1,0 +1,18 @@
+#This has our edges between different vertices in our graph.
+#Some expected paths with their lengths are:
+# f -> a has length 3 (f,g,h,a)
+# b -> g has length 2 (b, c, g)
+# c -> f has length 3 (c, d, e, f)
+
+a	b
+a	d
+b	c
+c	g
+c	d
+d	e
+e	h
+e	f
+f	b
+f	g
+g	h
+h	a
